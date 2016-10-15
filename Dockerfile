@@ -1,7 +1,7 @@
 #  DockerFile to build GFW.Press
 #  Based on Centos
 #  Maintained by XZC
-FROM centos
+FROM centos6.8
 MAINTAINER xzc0001@gmail.com
 
 # Begin installation

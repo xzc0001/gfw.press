@@ -16,5 +16,7 @@ RUN git clone https://github.com/chinashiyu/gfw.press.git
 RUN chmod a+x /gfw.press/server.sh 
 # RUN echo ..........安装GFW.Press服务器版完成......... 
 
+EXPOSE 10006
+
 # Start GFW.Press
 CMD /gfw.press/server.sh
